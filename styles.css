@@ -1,0 +1,216 @@
+* {
+  list-style-type: none;
+}
+
+body {
+  font-family: 'Harmattan', sans-serif;
+}
+
+
+
+.ul-menu {
+  background-color: #333;
+  color: #ffffff;
+  overflow: hidden;
+  text-align: center;
+}
+
+.li-menu {
+  float: right;
+}
+
+.title {
+  font-size: 60px;
+  display: inline;
+}
+
+.a-menu {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+  display: block;
+  padding: 17px;
+}
+
+.li-menu a:hover {
+  background-color: black;
+}
+
+.column {
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+
+.profile {
+  width: 300px;
+  height: 300px;
+  border-radius: 300;
+}
+
+.social {
+  width: 25px;
+  padding: 5px;
+}
+
+.left {
+  width: 20%;
+  float: left;
+}
+
+.right {
+  min-width: 80%;
+  float: left;
+}
+
+.row:after {
+  display: table;
+  clear: both;
+  content: '';
+}
+
+.main-bar {
+  background-color: aquamarine;
+  display: block;
+  height: 25%;
+}
+
+.main-bar span {
+  background-color: blue;
+  height: 25px;
+  display: block;
+  color: yellow;
+}
+
+.javascript {
+  width: 70%;
+  animation: javascript 2s;
+}
+.java {
+  width: 50%;
+  animation: java 2s;
+}
+.android {
+  width: 60%;
+  animation: android 2s;
+}
+.html {
+  width: 90%;
+  animation: html 2s;
+}
+.api-testing {
+  width: 70%;
+  animation: api-testing 2s;
+}
+.linux {
+  width: 60%;
+  animation: linux 2s;
+}
+.react {
+  width: 50%;
+  animation: react 2s;
+}
+
+.row {
+  padding: 17px;
+}
+
+@keyframes javascript {
+  0% {
+    width: 0%;
+    background-color: #ffffff;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+@keyframes java {
+  0% {
+    width: 0%;
+    background-color: #ffffff;
+  }
+  100% {
+    width: 50%;
+  }
+}
+
+@keyframes android {
+  0% {
+    width: 0%;
+    background-color: #ffffff;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+@keyframes html {
+  0% {
+    width: 0%;
+    background-color: #ffffff;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes api-testing {
+  0% {
+    width: 0%;
+    background-color: #ffffff;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+@keyframes linux {
+  0% {
+    width: 0%;
+    background-color: #ffffff;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+@keyframes react {
+  0% {
+    width: 0%;
+    background-color: #ffffff;
+  }
+  100% {
+    width: 50%;
+  }
+}
+
+@keyframes javascript {
+  0% {
+    width: 0%;
+    background-color: #ffffff;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+.footer {
+  color: white;
+  text-align: center;
+  background-color: #333;
+  min-height: 40%;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.records:hover {
+  background-color: yellowgreen;
+}
+a {
+  color: white;
+}
