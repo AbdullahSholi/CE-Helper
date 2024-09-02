@@ -15,8 +15,25 @@
       href="https://fonts.googleapis.com/css2?family=Harmattan&display=swap"
       rel="stylesheet"
     />
+    <style>
+      :root hr {
+    height: 20px;
+    border: none; /* Remove default border */
+    background: linear-gradient(
+        to right,
+        transparent,
+        var(--hr-color) calc(50% - var(--hr-line-offset)),
+        var(--hr-color) calc(50% + var(--hr-line-offset)),
+        transparent
+    );
+    padding: 0; /* Ensure no padding is applied */
+    margin: 0; /* Ensure no margin is applied */
+}
+
+
+    </style>
   </head>
-  <body>
+  <body style="--hr-line-offset: 25%; --hr-color: lightsalmon;">
     <div>
       <ul class="ul-menu">
         
@@ -274,8 +291,54 @@
 
       </div>
       </div>
-        <span id="counter">0</span>
+        
       <br />
+
+      <hr>
+      <br>
+      <div class="timeline">
+      <div class="container timeline-left">
+        <a href="https://periwinkle-lobster-3db.notion.site/Git-Github-Teamwork-notes-b2b520aa3c7f4a9eb9dc361452cbdbe0?pvs=4" target="_blank">
+        <div class="content">
+          <h2>Git & Github Team Work Commands</h2>
+        </div>
+        </a>
+      </div>
+      <div class="container timeline-right">
+        <a href="https://periwinkle-lobster-3db.notion.site/Software-Testing-Course-bffa8e32d39f4ebea5bf791fcd3bd71d?pvs=4" target="_blank">
+        <div class="content">
+          <h2>Software Testing Course Notes</h2>
+        </div>
+        </a>
+      </div>
+
+      <div class="container timeline-left">
+        <a href="https://periwinkle-lobster-3db.notion.site/Git-Github-35a975eacd5949c082a7669db9026884?pvs=4" target="_blank">
+        <div class="content">
+          <h2>Advanced Git & GitHub Course Notes</h2>
+        </div>
+        </a>
+      </div>
+      <div class="container timeline-right">
+        <a href="https://jade-hoof-6a0.notion.site/Docker-8dfadc9fc9724ef4b7a008cc9c0c7264?pvs=4" target="_blank">
+        <div class="content">
+          <h2>Docker Course Notes Part 1</h2>
+        </div>
+        </a>
+      </div>
+
+      <div class="container timeline-left">
+        <a href="https://periwinkle-lobster-3db.notion.site/Docker-Course-Part-2-13ef235614494ce9b32f2085bb462427?pvs=4" target="_blank">
+        <div class="content">
+          <h2>Docker Course Notes Part 2</h2>
+        </div>
+        </a>
+      </div>
+    
+      
+    </div>
+  
+    <br>
       <div class="footer">جميع الحقوق محفوظة</div>
     </div>
 
